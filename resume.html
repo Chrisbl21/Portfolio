@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Resume | Christopher Blank, Graphic Designer</title>
+  <meta name="description" content="Resume - Christopher Blank's design portfolio.">
+  <title>Resume | Chris Blank Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <p class="site-name">Christopher Blank</p>
-    <nav aria-label="Main">
-      <ul>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-name" href="index.html">Chris Blank<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
         <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
         <li><a href="skills.html">Skills</a></li>
-        <li><a href="resume.html">Resume</a></li>
+        <li><a href="resume.html" aria-current="page">Resume</a></li>
         <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h1>Resume</h1>
-    <p>My education and experience will go here.</p>
+  <main id="main-content" class="container">
+    <section class="page-intro">
+      <p class="eyebrow">BACKGROUND</p>
+      <h1>Resume</h1>
+      <p class="lead">A concise overview of my interests, strengths, and professional direction.</p>
+    </section>
+    <section class="content-card prose-card">
+      <h2>Professional objective</h2>
+      <p>To contribute creativity, attention to detail, and a user-focused mindset to an entry-level opportunity involving visual communication, design, or digital content.</p>
+      <h2>Core strengths</h2>
+      <ul class="check-list"><li>Attention to detail and visual consistency</li><li>Clear written and visual communication</li><li>Willingness to learn and incorporate feedback</li><li>Interest in accessible, responsive design</li></ul>
+      <p class="small-note">Add verified employment history, education dates, and contact details to this page before using it as a formal job-application resume.</p>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 Christopher Blank</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Christopher Blank</p>
+      <p>Designing with purpose. Building with creativity.</p>
+    </div>
   </footer>
 </body>
 </html>
