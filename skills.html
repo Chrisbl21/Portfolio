@@ -1,33 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Skills | Christopher Blank, Graphic Designer</title>
+  <meta name="description" content="Skills - Christopher Blank's design portfolio.">
+  <title>Skills | Chris Blank Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <p class="site-name">Christopher Blank</p>
-    <nav aria-label="Main">
-      <ul>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-name" href="index.html">Chris Blank<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html" aria-current="page">Skills</a></li>
         <li><a href="resume.html">Resume</a></li>
         <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h1>Skills and Tools</h1>
-    <p>Software and design skills will be listed here.</p>
+  <main id="main-content" class="container">
+    <section class="page-intro">
+      <p class="eyebrow">CAPABILITIES</p>
+      <h1>Skills &amp; Tools</h1>
+      <p class="lead">The skills below represent the areas I am developing and the principles I use when planning creative work.</p>
+    </section>
+    <section class="card-grid two">
+      <article class="content-card">
+        <h2>Design foundations</h2>
+        <ul class="skill-list"><li>Typography and visual hierarchy</li><li>Color and contrast</li><li>Layout and composition</li><li>Brand consistency</li><li>Print-ready page planning</li></ul>
+      </article>
+      <article class="content-card">
+        <h2>Web &amp; digital</h2>
+        <ul class="skill-list"><li>Semantic HTML structure</li><li>CSS styling and responsive layouts</li><li>Navigation and page organization</li><li>Accessibility-minded design</li><li>Testing and revision</li></ul>
+      </article>
+    </section>
+    <section class="content-card learning-card">
+      <p class="eyebrow">ALWAYS IMPROVING</p>
+      <h2>Learning through practice</h2>
+      <p>I continue to strengthen my skills by building projects, reviewing feedback, and refining both the visual presentation and the way people use each design.</p>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 Christopher Blank</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Christopher Blank</p>
+      <p>Designing with purpose. Building with creativity.</p>
+    </div>
   </footer>
 </body>
 </html>
