@@ -1,33 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home | Christopher Blank, Graphic Designer</title>
+  <meta name="description" content="Home - Christopher Blank's design portfolio.">
+  <title>Home | Chris Blank Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <p class="site-name">Christopher Blank</p>
-    <nav aria-label="Main">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-name" href="index.html">Chris Blank<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
         <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
         <li><a href="skills.html">Skills</a></li>
         <li><a href="resume.html">Resume</a></li>
         <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h1>Welcome</h1>
-    <p>Hi, I'm Christopher Blank, a graphic designer focused on branding, print, and digital design. Browse my work on the <a href="projects.html">Projects</a> page.</p>
+  <main id="main-content" class="container">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">DESIGN PORTFOLIO</p>
+        <h1>Creative ideas, made clear and memorable.</h1>
+        <p class="lead">Hi, I'm Christopher Blank. I’m interested in creating thoughtful visual experiences across branding, print, and digital design.</p>
+        <div class="button-row">
+          <a class="button button-primary" href="projects.html">Explore my projects</a>
+          <a class="button button-secondary" href="about.html">Get to know me</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-label="Portfolio introduction">
+        <span class="panel-mark" aria-hidden="true">CB</span>
+        <p class="panel-label">CREATIVE APPROACH</p>
+        <h2>Purposeful design.<br>Practical thinking.</h2>
+        <p>Strong visuals work best when they communicate clearly and serve a real purpose.</p>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I LIKE TO CREATE</p>
+        <h2>Areas of interest</h2>
+      </div>
+      <div class="card-grid three">
+        <article class="content-card">
+          <span class="card-number">01</span>
+          <h3>Branding &amp; identity</h3>
+          <p>Visual systems that help a business or idea feel recognizable, consistent, and professional.</p>
+        </article>
+        <article class="content-card">
+          <span class="card-number">02</span>
+          <h3>Print design</h3>
+          <p>Clear, carefully arranged layouts for signs, flyers, business cards, and other printed materials.</p>
+        </article>
+        <article class="content-card">
+          <span class="card-number">03</span>
+          <h3>Digital design</h3>
+          <p>Readable, user-friendly digital experiences that organize information and guide visitors.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="callout">
+      <div>
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have a project or opportunity in mind?</h2>
+        <p>Explore my work and learn more about my interests and approach.</p>
+      </div>
+      <a class="button button-light" href="contact.html">Contact me</a>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 Christopher Blank</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Christopher Blank</p>
+      <p>Designing with purpose. Building with creativity.</p>
+    </div>
   </footer>
 </body>
 </html>
