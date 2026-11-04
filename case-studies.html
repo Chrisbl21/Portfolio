@@ -1,33 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Case Studies | Christopher Blank, Graphic Designer</title>
+  <meta name="description" content="Case Studies - Christopher Blank's design portfolio.">
+  <title>Case Studies | Chris Blank Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <p class="site-name">Christopher Blank</p>
-    <nav aria-label="Main">
-      <ul>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-name" href="index.html">Chris Blank<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
         <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
         <li><a href="skills.html">Skills</a></li>
         <li><a href="resume.html">Resume</a></li>
         <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <h1>Case Studies</h1>
-    <p>Each case study will explain the problem, my process, and the result.</p>
+  <main id="main-content" class="container">
+    <section class="page-intro">
+      <p class="eyebrow">THINKING BEHIND THE WORK</p>
+      <h1>Case Studies</h1>
+      <p class="lead">A strong design is more than its final appearance. It also reflects the goal, decisions, and revisions behind it.</p>
+    </section>
+    <section class="card-grid two">
+      <article class="content-card">
+        <span class="tag">01 · Understand</span>
+        <h2>Define the goal</h2>
+        <p>Identify the audience, the message, and the problem the design needs to solve before choosing a visual direction.</p>
+      </article>
+      <article class="content-card">
+        <span class="tag">02 · Develop</span>
+        <h2>Explore solutions</h2>
+        <p>Consider layout, typography, color, and content hierarchy. Compare options against the original goal.</p>
+      </article>
+      <article class="content-card">
+        <span class="tag">03 · Refine</span>
+        <h2>Review the details</h2>
+        <p>Check readability, consistency, accessibility, and how the design behaves at different sizes.</p>
+      </article>
+      <article class="content-card">
+        <span class="tag">04 · Present</span>
+        <h2>Explain the result</h2>
+        <p>Show the final solution and communicate how the design choices support the audience and purpose.</p>
+      </article>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 Christopher Blank</p>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Christopher Blank</p>
+      <p>Designing with purpose. Building with creativity.</p>
+    </div>
   </footer>
 </body>
 </html>
