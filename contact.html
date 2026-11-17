@@ -1,58 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Contact - Christopher Blank's design portfolio.">
-  <title>Contact | Chris Blank Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Contact Christopher Blank using the accessible validated contact form.">
+<title>Contact | Chris Blank Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Skip to main content</a>
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="site-name" href="index.html">Chris Blank<span>.</span></a>
-      <nav aria-label="Main navigation">
-        <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="contact.html" aria-current="page">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-name" href="index.html">Chris Blank<span>.</span></a>
+    <nav aria-label="Main navigation"><ul>
+      <li><a href="index.html" >Home</a></li>
+      <li><a href="about.html" >About</a></li>
+      <li><a href="projects.html" >Projects</a></li>
+      <li><a href="skills.html" >Skills</a></li>
+      <li><a href="resume.html" >Resume</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="case-studies.html" >Case Studies</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul></nav>
+  </div>
+</header>
+<main id="main-content" class="container">
 
-  <main id="main-content" class="container">
-    <section class="page-intro">
-      <p class="eyebrow">GET IN TOUCH</p>
-      <h1>Contact</h1>
-      <p class="lead">Thank you for visiting my portfolio. I welcome conversations about creative opportunities, projects, and collaboration.</p>
-    </section>
-    <section class="card-grid two contact-grid">
-      <article class="content-card">
-        <h2>Start a conversation</h2>
-        <p>The easiest way to reach me is by email.</p>
-        <a class="button button-primary" href="mailto:">Email Christopher</a>
-        <p class="small-note">Before publishing, add your preferred email address to the email link.</p>
-      </article>
-      <article class="content-card">
-        <h2>What I'd like to hear about</h2>
-        <ul class="check-list"><li>Entry-level opportunities and internships</li><li>Branding, print, or digital design projects</li><li>Creative collaboration and feedback</li></ul>
-      </article>
-    </section>
-  </main>
+<section class="page-intro"><p class="eyebrow">GET IN TOUCH</p><h1>Let's start a conversation.</h1><p class="lead">Use the form to share a project idea, ask about my work, or discuss a creative opportunity. Required fields are marked.</p></section>
+<div class="form-layout">
+<section class="content-card"><h2>Send a message</h2><p class="form-help">Your browser will check required fields and validate the email format before submission.</p>
+<form class="contact-form" action="mailto:christopher.blank@example.com" method="post" enctype="text/plain">
+<div class="form-field"><label for="full-name">Full name <span aria-hidden="true">*</span></label><input id="full-name" name="full-name" type="text" autocomplete="name" required minlength="2" placeholder="Your name"></div>
+<div class="form-field"><label for="email">Email address <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div>
+<div class="form-field"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9()+.\-\s]{7,}" placeholder="(555) 555-5555"><span class="form-help">Optional. Include a phone number where you can be reached.</span></div>
+<div class="form-field"><label for="topic">What would you like to discuss? <span aria-hidden="true">*</span></label><select id="topic" name="topic" required><option value="">Choose a topic</option><option value="Design project">Design project</option><option value="Career opportunity">Career opportunity</option><option value="Collaboration">Collaboration</option><option value="Portfolio feedback">Portfolio feedback</option><option value="Other">Other</option></select></div>
+<div class="form-field"><label for="message">Message <span aria-hidden="true">*</span></label><textarea id="message" name="message" required minlength="10" placeholder="Tell me a little about what you have in mind."></textarea></div>
+<button class="button button-primary" type="submit">Submit message</button>
+<p class="form-help">Note: Replace the example email address in the form action with your preferred email before publishing. This mailto form opens the visitor's email application; it does not store submissions on the website.</p>
+</form></section>
+<aside class="content-card"><p class="eyebrow">OTHER WAYS TO CONNECT</p><h2>What I'd like to hear about</h2><ul class="check-list"><li>Entry-level opportunities and internships</li><li>Branding, print, or digital design projects</li><li>Creative collaboration and feedback</li></ul><h3 style="margin-top:1.5rem">A helpful first message</h3><p>Include the project goal, intended audience, preferred timeline, and any details that will help explain the idea.</p></aside>
+</div>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>&copy; 2026 Christopher Blank</p>
-      <p>Designing with purpose. Building with creativity.</p>
-    </div>
-  </footer>
+</main>
+<footer class="site-footer"><div class="container footer-inner">
+<p>&copy; 2026 Christopher Blank</p><p>Designing with purpose. Building with creativity.</p>
+</div></footer>
 </body>
 </html>
