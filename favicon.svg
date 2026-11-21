@@ -1,6 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<rect width="64" height="64" rx="12" fill="#17191b"/>
-<path d="M8 8h48v48H8z" fill="none" stroke="#45494b" stroke-width="2"/>
-<path d="M14 43V20h8l10 13 10-13h8v23h-8V31L32 43 22 31v12z" fill="#f2efe8"/>
-<circle cx="50" cy="14" r="5" fill="#ff6338"/>
+  <rect width="64" height="64" rx="14" fill="#17191b"/>
+  <rect x="3" y="3" width="58" height="58" rx="11" fill="none" stroke="#45494b" stroke-width="2"/>
+  <text x="31" y="44" text-anchor="middle"
+        font-family="Arial Black, Arial, sans-serif"
+        font-size="31" font-weight="900" letter-spacing="-3"
+        fill="#f2efe8">CB</text>
+  <path d="M43 11h10l-6 7h-10z" fill="#ff6338"/>
+  <path d="M13 51h38" stroke="#ff6338" stroke-width="3" stroke-linecap="round"/>
 </svg>
